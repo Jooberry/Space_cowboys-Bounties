@@ -12,8 +12,8 @@ class Bounty
     @favourite_weapon = options['favourite_weapon']
   end
 
-  def save()
-    db = PG.connect({dbname: 'space_cowboys', host: 'localhost'})
+  # def save()
+  #   db = PG.connect({dbname: 'space_cowboys', host: 'localhost'})
   end
 
 

@@ -1,4 +1,4 @@
-DROP TABLE;
+DROP TABLE IF EXISTS space_cowboys;
 
 CREATE TABLE space_cowboys (
   id SERIAL8 PRIMARY KEY,
